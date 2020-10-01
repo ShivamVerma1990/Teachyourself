@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.CoolFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="w-pCV3dLr7c"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"
+                app:handleNetworkEvents="true"
+
+                app:enableLiveVideoUi="false"
+                app:showVideoCurrentTime="true"
+                app:showVideoDuration="true"
+                app:showSeekBar="true"
+                app:showFullScreenButton="true"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+
+                android:text="Math:
+Please click here"
+                android:textColor="#ffff"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="6fQk25Ly4K0"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"
+                app:handleNetworkEvents="true"
+                app:useWebUi="false"
+                app:enableLiveVideoUi="false"
+                app:showVideoCurrentTime="true"
+                app:showVideoDuration="true"
+                app:showSeekBar="true"
+                app:showFullScreenButton="true"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+
+                android:text="science:
+Please click here"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="WYz62KKCF7k"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"
+                app:handleNetworkEvents="true"
+                app:useWebUi="false"
+                app:enableLiveVideoUi="false"
+                app:showVideoCurrentTime="true"
+                app:showVideoDuration="true"
+                app:showSeekBar="true"
+                app:showFullScreenButton="true"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+
+                android:text="Computer:
+Please click here"
+                android:textColor="#ffff"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="VFOF1wlf0bU"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"
+                app:handleNetworkEvents="true"
+                app:useWebUi="false"
+                app:enableLiveVideoUi="false"
+                app:showVideoCurrentTime="true"
+                app:showVideoDuration="true"
+                app:showSeekBar="true"
+                app:showFullScreenButton="true"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+
+                android:text="History:
+Please click here"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="25GkpaWCN9c"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"
+                app:handleNetworkEvents="true"
+                app:useWebUi="false"
+                app:enableLiveVideoUi="false"
+                app:showVideoCurrentTime="true"
+                app:showVideoDuration="true"
+                app:showSeekBar="true"
+                app:showFullScreenButton="true"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+
+                android:text="ENGLISH(tense):
+Please click here"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

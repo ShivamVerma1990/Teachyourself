@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF004D"
+
+
+    tools:context=".LoginActivity">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_boy"
+        android:background="@drawable/user_profile_image_background"
+        android:layout_centerHorizontal="true"
+        android:elevation="20dp"
+        android:layout_marginTop="76dp"
+        android:id="@+id/imgLogo"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rLay"
+    android:layout_width="350dp"
+    android:layout_height="350dp"
+android:layout_centerHorizontal="true"
+android:background="#ffff"
+android:layout_marginTop="130dp"
+>
+        <EditText
+    android:id="@+id/etMobileNumber"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+android:layout_centerHorizontal="true"
+android:hint="Enter your MobileNumber"
+android:inputType="phone"
+    android:textSize="12dp"
+ android:layout_marginLeft="23dp"
+
+    android:textStyle="bold"
+    android:drawablePadding="7dp"
+    android:layout_marginTop="90dp"
+android:drawableLeft="@drawable/ic_action_name"
+    android:backgroundTint="@color/colorPrimary"/>
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:hint="Enter Password"
+            android:inputType="numberPassword"
+            android:textSize="12dp"
+            android:layout_marginLeft="23dp"
+            android:textStyle="bold"
+            android:drawablePadding="7dp"
+            android:layout_below="@+id/etMobileNumber"
+            android:layout_marginTop="2dp"
+            android:drawableLeft="@drawable/ic_action_password"
+            android:backgroundTint="@color/colorPrimary"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/etPassword"
+    android:background="#0c543c"
+  android:layout_margin="5dp"
+    android:text="Login"
+   android:textColor="#ffff"
+    android:elevation="4dp"
+    android:id="@+id/btnLogin"
+    android:visibility="visible"
+    />
+    <TextView
+        android:id="@+id/txtRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:text="Register Your Account"
+   android:layout_alignParentBottom="true"
+android:layout_marginBottom="11dp"
+        android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+android:layout_below="@id/rLay"
+android:text="Powered by Shivam Rajak"
+android:textColor="#ffff"
+android:textSize="20dp"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="190dp"/>
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF004D"
+    tools:context=".SplashActivity">
+<com.mikhaellopez.circularimageview.CircularImageView
+    android:id="@+id/imageView"
+    android:layout_width="290dp"
+    android:layout_height="150dp"
+
+
+    android:layout_marginLeft="126dp"
+    android:src="@drawable/elearning"
+
+    android:layout_marginTop="231dp"
+
+    app:civ_shadow_color="#000000"
+    app:civ_shadow_radius="4dp"
+    app:civ_shadow="true"
+
+
+    />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/imageView"
+    android:text="@string/elearning"
+android:textSize="23sp"
+    android:textColor="#ffff"
+    android:textStyle="bold"
+    android:padding="5dp"
+android:layout_marginTop="270dp"
+android:id="@+id/txtLogo"
+    android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLogo"
+        android:text="@string/design_by_shivamverma"
+        android:textSize="13sp"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:padding="5dp"
+
+
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "207395758073",
+    "firebase_url": "https://teaching-app-f29e4.firebaseio.com",
+    "project_id": "teaching-app-f29e4",
+    "storage_bucket": "teaching-app-f29e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207395758073:android:999acbd5de1a5676be2728",
+        "android_client_info": {
+          "package_name": "com.example.teachingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207395758073-lth0ern84qdbmn4928f7d1gnin2sj7l1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.teachingapp",
+            "certificate_hash": "4f1aa2f7e289acc3224e35fbb6edbedb1e9aab43"
+          }
+        },
+        {
+          "client_id": "207395758073-gjdsdc11tchhukj9oj4ohm88ivp2jhq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBikskxy8a3QLEmMMZDLwFu1pDZ0pS0zCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207395758073-gjdsdc11tchhukj9oj4ohm88ivp2jhq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
